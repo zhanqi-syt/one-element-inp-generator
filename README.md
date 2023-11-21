@@ -1,4 +1,4 @@
-# 3D One Element INP Generator: Turbocharge Modeling with Abaqus Python Script
+# One Element INP Generator: Turbocharge Modeling with Abaqus Python Script
 
 ## Overview
 
