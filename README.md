@@ -4,7 +4,10 @@
 
 This repository contains a powerful Abaqus Python script designed to simplify and accelerate the creation of 3D finite element models with a single element. 
 The script automates the process, allowing users to effortlessly set up and generate complex models with minimal manual intervention. Abaqus CAE models are shown in Fig. 1.
-![Fig. 1](./pics/3D Model.svg)
+
+example svg
+
+![example svg](./pics/3D Model.svg)
 
 ## File Structure
 
