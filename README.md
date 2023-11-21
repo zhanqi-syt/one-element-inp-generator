@@ -1,4 +1,4 @@
-# 基于Abqus脚本及子程序的从单单元到细观结构模拟(from-oneelement-to-mesostructure based on Abqus Python script and Fortran subroutine)
+# 基于Abqus脚本及子程序的从单单元到细观结构模拟/n(from-oneelement-to-mesostructure based on Abqus Python script and Fortran subroutine)
 
 
 This codes is abaqus python script to generate one element model before varification./n
