@@ -42,15 +42,14 @@ This repository, built with Python, aims to alleviate the tedium by providing a 
    - Fine-tune the level of detail in the output results.
 
 
-<details>
-  <summary>Final Thoughts 🚀</summary>
+<summary>Final Thoughts 🚀</summary>
   
   The journey of exploring one element models is not just about simulations; it's a quest for understanding the intricacies of material behavior. As you navigate through this repository, may you find inspiration in the simplicity and power of one element models.
 
   **Explore the diverse capabilities of this repository to streamline your one element model generation process. Transform the mundane into the extraordinary with efficient, parameterized model generation.**
 
-  Happy modeling!
-</details>
+Happy modeling!
+
 
 
 ## File Structure
