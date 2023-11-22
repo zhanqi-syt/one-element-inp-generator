@@ -12,16 +12,6 @@ This repository, built with Python, aims to alleviate the tedium by providing a 
 2. **Python IDE**
    - Directly generates INP files using a Python Integrated Development Environment.
 
-#### Element Types (Updating)
-1. **C3D8**
-
-![c3d8](./pics/c3d8.svg)
-
-
-2. **CPE4**
-3. **CPS4**
-4. **...**
-
 #### Controllable Material Parameters (Updating)
 1. **UMAT parameters**
 2. **State Dependent Variables(SDVs)**
@@ -41,8 +31,18 @@ This repository, built with Python, aims to alleviate the tedium by providing a 
 1. **Number of Output Points**
    - Fine-tune the level of detail in the output results.
 
+#### Element Types (Updating)
+1. **C3D8**
 
-<summary>Final Thoughts 🚀</summary>
+![c3d8](./pics/c3d8.svg)
+
+
+2. **CPE4**
+3. **CPS4**
+4. **...**
+
+
+### Final Thoughts 🚀
   
   The journey of exploring one element models is not just about simulations; it's a quest for understanding the intricacies of material behavior. As you navigate through this repository, may you find inspiration in the simplicity and power of one element models.
 
