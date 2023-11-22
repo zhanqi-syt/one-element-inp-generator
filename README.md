@@ -1,56 +1,10 @@
-### One-Element INP Generator: Turbocharge Modeling with Abaqus Python Script
+# One-Element INP Generator: Turbocharge Modeling with Abaqus Python Script
 
-#### Introduction
+## Introduction
 
 In the realm of material characterization and constitutive modeling, the one element model plays a pivotal role, offering a swift yet comprehensive exploration of stress-strain responses in the development of new constitutive processes. Despite its fundamental importance, working with one element models can be monotonous and repetitive.
 
 This repository, built with Python, aims to alleviate the tedium by providing a versatile tool for generating common one-element models. The repository supports various generation methods and types, allowing for efficient debugging and exploration of the impact of model parameters on mechanical descriptions.
-
-#### Generation Methods
-1. **Abaqus Python Script**
-   - Generates CAE and INP files using an Abaqus Python script.
-2. **Python IDE**
-   - Directly generates INP files using a Python Integrated Development Environment.
-
-#### Controllable Material Parameters (Updating)
-1. **UMAT parameters**
-2. **State Dependent Variables(SDVs)**
-3. **Elastic parameters**
-4. **Density**
-5. **CTE**
-
-#### Controllable Geometric Parameters
-1. **Mesh Size**
-   - Adjust the size of the mesh for greater flexibility.
-
-#### Controllable Boundary Conditions
-1. **Final Time Strain**
-   - Control the strain at the final time step for precise simulations.
-
-#### Controllable Output Parameters
-1. **Number of Output Points**
-   - Fine-tune the level of detail in the output results.
-
-#### Element Types (Updating)
-1. **C3D8**
-
-![c3d8](./pics/c3d8.svg)
-
-
-2. **CPE4**
-3. **CPS4**
-4. **...**
-
-
-### Final Thoughts 🚀
-  
-  The journey of exploring one element models is not just about simulations; it's a quest for understanding the intricacies of material behavior. As you navigate through this repository, may you find inspiration in the simplicity and power of one element models.
-
-  **Explore the diverse capabilities of this repository to streamline your one element model generation process. Transform the mundane into the extraordinary with efficient, parameterized model generation.**
-
-Happy modeling!
-
-
 
 ## File Structure
 
@@ -58,6 +12,41 @@ Happy modeling!
 - **`README.md`**: Project documentation providing detailed information on the script and instructions for use.
 - **`examples/`**: Directory containing sample files demonstrating different configurations and use cases.
 
+## Configuration Parameters
+
+### Generation Methods
+1. **Abaqus Python Script**
+   - Generates CAE and INP files using an Abaqus Python script.
+2. **Python IDE**
+   - Directly generates INP files using a Python Integrated Development Environment.
+
+### Controllable Material Parameters (Updating)
+1. **UMAT parameters**
+2. **State Dependent Variables(SDVs)**
+3. **Elastic parameters**
+4. **Density**
+5. **CTE**
+
+### Controllable Geometric Parameters
+1. **Mesh Size**
+   - Adjust the size of the mesh for greater flexibility.
+
+### Controllable Boundary Conditions
+1. **Final Time Strain**
+   - Control the strain at the final time step for precise simulations.
+
+### Controllable Output Parameters
+1. **Number of Output Points**
+   - Fine-tune the level of detail in the output results.
+
+### Element Types (Updating)
+1. **C3D8**
+
+![c3d8](./pics/c3d8.svg)
+
+2. **CPE4**
+3. **CPS4**
+4. **...**
 
 ## Usage
 
@@ -78,16 +67,6 @@ Happy modeling!
 
     Replace `one_element_generator.py` with the actual script filename.
 
-## Configuration Parameters
-
-In the `one_element_generator.py` file, users can customize the following parameters:
-
-- `material_properties`: Define material properties such as elastic modulus, Poisson's ratio, etc.
-- `geometry_parameters`: Set geometric parameters, including dimensions and shape.
-- `boundary_conditions`: Specify boundary conditions, including constraints and loads.
-
-Ensure that you have appropriately configured these parameters based on the specific requirements of your model before running the script.
-
 ## Examples
 
 Explore the `examples/` directory to see sample files showcasing how to configure the script for different types of single-element models. Each example includes corresponding documentation.
@@ -100,3 +79,13 @@ Explore the `examples/` directory to see sample files showcasing how to configur
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Final Thoughts 🚀
+  
+The journey of exploring one element models is not just about simulations; it's a quest for understanding the intricacies of material behavior. As you navigate through this repository, may you find inspiration in the simplicity and power of one element models.
+
+**Explore the diverse capabilities of this repository to streamline your one element model generation process.**
+
+**Transform the mundane into the extraordinary with efficient, parameterized model generation.**
+
+**Happy modeling!**
