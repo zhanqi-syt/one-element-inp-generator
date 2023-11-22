@@ -7,7 +7,7 @@ This repository contains a powerful Abaqus Python script designed to simplify an
 
 The script automates the process, allowing users to effortlessly set up and generate complex models with minimal manual intervention. Abaqus CAE models are shown in Fig. 1.
 
-![3D Model](./one-element-inp-generator/pics/c3d8.svg)
+![c3d8](./pics/c3d8.svg)
 
 ## File Structure
 
