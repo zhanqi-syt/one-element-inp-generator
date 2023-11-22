@@ -1,4 +1,4 @@
-![3D Model](https://github.com/zhanqi-syt/one-element-inp-generator/assets/116877222/c4b35dfa-d239-4f86-bcd7-fc8742586634)# One Element INP Generator: Turbocharge Modeling with Abaqus Python Script
+# One Element INP Generator: Turbocharge Modeling with Abaqus Python Script
 
 ## Overview
 
@@ -6,6 +6,8 @@ This repository contains a powerful Abaqus Python script designed to simplify an
 
 
 The script automates the process, allowing users to effortlessly set up and generate complex models with minimal manual intervention. Abaqus CAE models are shown in Fig. 1.
+
+![3D Model](https://github.com/zhanqi-syt/one-element-inp-generator/pics/3D Model.svg)
 
 ## File Structure
 
