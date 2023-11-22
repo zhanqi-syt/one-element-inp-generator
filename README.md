@@ -1,10 +1,13 @@
-# One-Element INP Generator: Turbocharge Modeling with Abaqus Python Script
+# One-Element INP Generator (Under Construction)
+## *Turbocharge Modeling with Abaqus Python Script*
 
 ## Introduction
 
-In the realm of material characterization and constitutive modeling, the one element model plays a pivotal role, offering a swift yet comprehensive exploration of stress-strain responses in the development of new constitutive processes. Despite its fundamental importance, working with one element models can be monotonous and repetitive.
+In the realm of material characterization and constitutive modeling, the one-element model plays a pivotal role, offering a swift yet comprehensive exploration of stress-strain responses in the development of new constitutive processes. Despite its fundamental importance, working with one-element models can be monotonous and repetitive.
 
 This repository, built with Python, aims to alleviate the tedium by providing a versatile tool for generating common one-element models. The repository supports various generation methods and types, allowing for efficient debugging and exploration of the impact of model parameters on mechanical descriptions.
+
+If you have any questions, please contact **Yutai Su** at [buaa_syt@126.com](mailto:buaa_syt@126.com).
 
 ## File Structure
 
