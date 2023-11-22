@@ -6,8 +6,6 @@ In the realm of material characterization and constitutive modeling, the one ele
 
 This repository, built with Python, aims to alleviate the tedium by providing a versatile tool for generating common one-element models. The repository supports various generation methods and types, allowing for efficient debugging and exploration of the impact of model parameters on mechanical descriptions.
 
-Explore the diverse capabilities of this repository to streamline your one element model generation process. Transform the mundane into the extraordinary with efficient, parameterized model generation.
-
 #### Generation Methods
 1. **Abaqus Python Script**
    - Generates CAE and INP files using an Abaqus Python script.
@@ -16,7 +14,10 @@ Explore the diverse capabilities of this repository to streamline your one eleme
 
 #### Element Types (Updating)
 1. **C3D8**
+
 ![c3d8](./pics/c3d8.svg)
+
+
 2. **CPE4**
 3. **CPS4**
 4. **...**
@@ -41,9 +42,13 @@ Explore the diverse capabilities of this repository to streamline your one eleme
    - Fine-tune the level of detail in the output results.
 
 
+<details>
+  <summary>Final Thoughts</summary>
+  
+  The journey of exploring one element models is not just about simulations; it's a quest for understanding the intricacies of material behavior. As you navigate through this repository, may you find inspiration in the simplicity and power of one-element models, and may your simulations lead to discoveries that redefine possibilities in material science.
 
-
-
+  Happy modeling!
+</details>
 
 ## File Structure
 
