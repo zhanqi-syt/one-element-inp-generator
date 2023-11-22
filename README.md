@@ -1,5 +1,5 @@
 # One-Element INP Generator (Under Construction)
-## *Turbocharge Modeling with Abaqus Python Script*
+*Turbocharge Modeling with Abaqus Python Script*
 
 ## Introduction
 
