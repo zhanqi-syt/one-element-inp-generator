@@ -11,10 +11,10 @@ If you have any questions, please contact **Yutai Su** at [buaa_syt@126.com](mai
 
 ## File Structure
 
+- **`README.md`**: Project documentation providing detailed information on the script and instructions for use.
 - **`oeg_c3d8_aba.py`**: Abaqus Python script file responsible for generating C3D8 one-element inp and CAE.
 - **`oeg_c3d8_inp.py`**: Python file responsible for generating C3D8 one-element inp.
 - **`c3d8.inp`**: Inp template should be placed in the same directory with **`oeg_c3d8_inp.py`**.
-- **`README.md`**: Project documentation providing detailed information on the script and instructions for use.
 - **`examples/`**: Directory containing sample files demonstrating different configurations and use cases.
 
 ## Configuration Parameters
@@ -85,7 +85,7 @@ Explore the `examples/` directory to see sample files showcasing how to configur
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Final Thoughts 🚀
+## Final Thoughts 🚀🚀🚀
   
 The journey of exploring one element models is not just about simulations; it's a quest for understanding the intricacies of material behavior. As you navigate through this repository, may you find inspiration in the simplicity and power of one element models.
 
@@ -93,4 +93,4 @@ The journey of exploring one element models is not just about simulations; it's 
 
 **Transform the mundane into the extraordinary with efficient, parameterized model generation.**
 
-**Happy modeling!**
+**Happy modeling!** 🚀🚀🚀
