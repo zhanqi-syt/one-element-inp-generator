@@ -12,23 +12,44 @@ from load import *
 from mesh import *
 from job import *
 from sketch import *
-from visualization import *
-import os
 
 # 0.0 Initialization
-# 0.1 Define Model Name
+# 0.1 Model Name
 ModelName="OneEleModel_C3D8"
-# 0.2 Define Output Path
+# 0.2 Output Path
 OutputPath="D:/temp/20231121_OneEle/"
-# 0.4 Define Output Path
+# 0.3 Element size
 EleSize=0.1
-# 0.5 Define Output Path
+# 0.4 Time Period
 TimePeriod=1.0
-# 0.6 Define Output Path
+# 0.5 Increment interval and maximum increment number
 Inc=0.01
 MaxIncNum=10000
-# 0.7 Define Output Path
+# 0.6 Maximum strain (final strain)
 MaxStrain=0.05
+# 0.7 Material properties
+# If needed, please provide a value;
+# if not needed, delete the variable.
+# 0.7.1 Density
+DesProp=1.0
+# 0.7.2 Elastic
+ElaProp=[10100, 0.3]
+# 0.7.3 UserMaterial
+UMATProp=[1.0, 2.0, 3.0, 4.0, 56.0, 7.0, 8.0]
+# 0.7.4 UserDefinedField
+USDFLDProp=1
+# 0.7.5 UserOutputVariables
+OutVarProp=100
+# 0.7.6 Conductivity
+ConductProp=1.0
+# 0.7.7 SpecificHeat
+SHeatProp=1.0
+# 0.7.8 Expansion
+CTEProp=[0.000001, 298.15]
+# 0.7.9 Depvar
+SDVProp=240
+# 0.7.10 Plastic
+PlasticProp=[[1.0, 0.0],[1.2, 0.01],[1.0, 0.02]]
 
 # 1.0 Modeling
 # Model Establish
@@ -50,8 +71,66 @@ p.Set(faces=p.faces.findAt(((EleSize,EleSize/2.0,EleSize/2.0),)), name='Front')
 p.Set(vertices=p.vertices.findAt(((0.0,0.0,0.0),)), name='Point0')
 # Material Properties
 mat=m.Material(name='Material-1')
-mat.Density(table=((1.0, ), ))
-mat.Elastic(table=((10100, 0.3), ))
+## Density
+try:
+    mat.Density(table=((DesProp, ), ))
+except:
+    print("No density.")
+
+## Elastic
+try:
+    mat.Elastic(table=(ElaProp, ))
+except:
+    print("No Elastic.")
+
+## User Material
+try:
+    mat.UserMaterial(mechanicalConstants=UMATProp)
+except:
+    print("No User Material.")
+
+## User Defined Field
+try:
+    mat.UserDefinedField()
+except:
+    print("No User Defined Field.")
+
+## User Output Variables
+try:
+    mat.UserOutputVariables(n=OutVarProp)
+except:
+    print("No User Output Variables.")
+
+## Conductivity
+try:
+    mat.Conductivity(table=((ConductProp, ), ))
+except:
+    print("No Conductivity.")
+
+## Specific Heat
+try:
+    mat.SpecificHeat(table=((SHeatProp, ), ))
+except:
+    print("No Specific Heat.")
+
+## Expansion
+try:
+    mat.Expansion(table=((CTEProp[0], ), ), zero=CTEProp[1])
+except:
+    print("No Expansion.")
+
+## Solution Dependent Variables
+try:
+    mat.Depvar(n=SDVProp)
+except:
+    print("No Solution Dependent Variables.")
+
+## Plastic
+try:
+    mat.Plastic(table=PlasticProp)
+except:
+    print("No Plastic.")
+
 m.HomogeneousSolidSection(material='Material-1', name='Section-1', thickness=None)
 p.SectionAssignment(offset=0.0, offsetField='', offsetType=MIDDLE_SURFACE, region=
     p.sets['Set-All'], sectionName='Section-1', thicknessAssignment=FROM_SECTION)
