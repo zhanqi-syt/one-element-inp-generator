@@ -84,7 +84,7 @@ If you have any questions, please contact **Yutai Su** at [buaa_syt@126.com](mai
     Modify the path and parameters in `oeg_c3d8_inp.py` as needed, then run:
 
     ```bash
-    python oeg_c3d8_inp.py
+    python3 oeg_c3d8_inp.py
     ```
 
 ## Examples
