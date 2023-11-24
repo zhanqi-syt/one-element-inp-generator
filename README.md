@@ -89,7 +89,7 @@ If you have any questions, please contact **Yutai Su** at [buaa_syt@126.com](mai
 
 ## Examples
 
-Explore the `examples/` directory to see sample files showcasing how to configure the script for different types of single-element models. Each example includes corresponding documentation.
+Explore the `examples/` directory to see sample files showcasing how to configure the script for different types of one-element models. Each example includes corresponding documentation.
 
 ## Important Notes
 
@@ -102,10 +102,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Final Thoughts 🚀🚀🚀
   
-The journey of exploring one element models is not just about simulations; it's a quest for understanding the intricacies of material behavior. As you navigate through this repository, may you find inspiration in the simplicity and power of one element models.
+The journey of exploring one-element models is not just about simulations; it's a quest for understanding the intricacies of material behavior. As you navigate through this repository, may you find inspiration in the simplicity and power of one-element models.
 
-**Explore the diverse capabilities of this repository to streamline your one element model generation process.**
+**Explore the diverse capabilities of this repository to streamline your one-element model generation process.**
 
 **Transform the mundane into the extraordinary with efficient, parameterized model generation.**
 
-**Happy modeling!** 🚀🚀🚀
+**Happy modeling! 🚀🚀🚀**
