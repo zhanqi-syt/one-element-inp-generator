@@ -21,27 +21,34 @@ If you have any questions, please contact **Yutai Su** at [buaa_syt@126.com](mai
 
 ### Generation Methods
 1. **Abaqus Python Script**
-   - Generates CAE and INP files using an Abaqus Python script.
+   - Generate CAE and INP files using an Abaqus Python script.
+   - Run the script **`oeg_c3d8_aba.py`** by Abaqus to generate C3D8 one-element inp and CAE. 
 2. **Python IDE**
-   - Directly generates INP files using a Python Integrated Development Environment.
+   - Directly generate INP files using a Python Integrated Development Environment.
+   - Run the python code **`oeg_c3d8_aba.py`** with inp template **`c3d8.inp`** to generate C3D8 one-element inp.
 
-### Controllable Material Parameters (Updating)
-1. **UMAT parameters**
-2. **State Dependent Variables(SDVs)**
-3. **Elastic parameters**
-4. **Density**
-5. **CTE**
+### Controllable Material Properties (Updating)
+1. **Density**
+2. **Elastic properties**
+3. **User material properties**
+4. **User defined field**
+5. **User output variables**
+6. **Conductivity**
+7. **Specific heat**
+8. **CTE(Expansion)**
+9. **Depvar(State Dependent Variables, SDVs)**
+10. **Plastic properties**
 
 ### Controllable Geometric Parameters
-1. **Mesh Size**
-   - Adjust the size of the mesh for greater flexibility.
+1. **Element Size**
+   - Adjust the element size of the one-element model.
 
 ### Controllable Boundary Conditions
-1. **Final Time Strain**
-   - Control the strain at the final time step for precise simulations.
+1. **Maximum Strain at final time**
+   - Control the maximum strain at the final time step for precise simulations.
 
 ### Controllable Output Parameters
-1. **Number of Output Points**
+1. **the ineterval of Output Points**
    - Fine-tune the level of detail in the output results.
 
 ### Element Types (Updating)
@@ -55,22 +62,30 @@ If you have any questions, please contact **Yutai Su** at [buaa_syt@126.com](mai
 
 ## Usage
 
-1. **Install Abaqus**: Ensure that Abaqus is installed on your system and that the environment variables are properly configured.
+1. **Install Abaqus**: Make sure Abaqus is installed on your system and that the environment variables are configured correctly.
 
 2. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/your-username/3d-one-element-generator.git
-    cd 3d-one-element-generator
+    git clone https://github.com/zhanqi-syt/one-element-inp-generator.git
+    cd one-element-inp-generator
     ```
 
 3. **Run the Script**:
 
+    Modify the path and parameters in `oeg_c3d8_aba.py` as needed, then execute:
+
     ```bash
-    abaqus cae noGUI=one_element_generator.py
+    abaqus cae noGUI=oeg_c3d8_aba.py
     ```
 
-    Replace `one_element_generator.py` with the actual script filename.
+   **OR**
+   
+    Modify the path and parameters in `oeg_c3d8_inp.py` as needed, then run:
+
+    ```bash
+    python oeg_c3d8_inp.py
+    ```
 
 ## Examples
 
