@@ -22,10 +22,10 @@ If you have any questions, please contact **Yutai Su** at [buaa_syt@126.com](mai
 ### Generation Methods
 1. **Abaqus Python Script**
    - Generate CAE and INP files using an Abaqus Python script.
-   - Run the script **`oeg_c3d8_aba.py`** by Abaqus to generate C3D8 one-element inp and CAE. 
+   - Run the script **`oeg_c3d8_aba.py`** by Abaqus to generate C3D8 one-element inp and CAE.
 2. **Python IDE**
    - Directly generate INP files using a Python Integrated Development Environment.
-   - Run the python code **`oeg_c3d8_aba.py`** with inp template **`c3d8.inp`** to generate C3D8 one-element inp.
+   - Run the Python code **`oeg_c3d8_aba.py`** with the inp template **`c3d8.inp`** to generate the C3D8 one-element inp.
 
 ### Controllable Material Properties (Updating)
 1. **Density**
@@ -48,7 +48,7 @@ If you have any questions, please contact **Yutai Su** at [buaa_syt@126.com](mai
    - Control the maximum strain at the final time step for precise simulations.
 
 ### Controllable Output Parameters
-1. **the ineterval of Output Points**
+1. **Ineterval between Output Points**
    - Fine-tune the level of detail in the output results.
 
 ### Element Types (Updating)
