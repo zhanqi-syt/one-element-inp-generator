@@ -39,7 +39,7 @@ DesProp=1.0
 # 0.7.2 Elastic
 ElaProp=[10100, 0.3]
 # 0.7.3 UserMaterial
-UMATProp=[1.0, 2.0, 3.0, 4.0, 56.0, 7.0, 8.0]
+UMATProp=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]
 # 0.7.4 UserDefinedField
 USDFLDProp=1
 # 0.7.5 UserOutputVariables
