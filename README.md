@@ -13,8 +13,8 @@ If you have any questions, please contact **Yutai Su** at [buaa_syt@126.com](mai
 
 - **`README.md`**: Project documentation providing detailed information on the script and instructions for use.
 - **`oeg_c3d8_aba.py`**: Abaqus Python script file responsible for generating C3D8 one-element inp and CAE.
-- **`oeg_c3d8_inp.py`**: Python file responsible for generating C3D8 one-element inp.
-- **`c3d8.inp`**: Inp template should be placed in the same directory with **`oeg_c3d8_inp.py`**.
+- **`oeg_c3d8_inp.py`**: Python file responsible for generating C3D8 one-element inp (be placed in the same directory with C3D8 Inp template **`c3d8.inp`**).
+- **`c3d8.inp`**: C3D8 Inp template.
 - **`examples/`**: Directory containing sample files demonstrating different configurations and use cases.
 
 ## Configuration Parameters
