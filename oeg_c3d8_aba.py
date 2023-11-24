@@ -34,24 +34,24 @@ SHeatProp = CTEProp = SDVProp = False
 PlasticProp = False
 # If needed, please provide a value;
 # if not needed, delete the variable below.
-# 0.7.1 Density
-DesProp=1.0
+# # 0.7.1 Density
+# DesProp=1.0
 # 0.7.2 Elastic
 ElaProp=[10100, 0.3]
-# 0.7.3 UserMaterial
-UMATProp=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]
-# 0.7.4 UserDefinedField
-USDFLDProp=1
-# 0.7.5 UserOutputVariables
-OutVarProp=100
-# 0.7.6 Conductivity
-ConductProp=1.0
-# 0.7.7 SpecificHeat
-SHeatProp=1.0
-# 0.7.8 Expansion
-CTEProp=[0.000001, 298.15]
-# 0.7.9 Depvar
-SDVProp=240
+# # 0.7.3 UserMaterial
+# UMATProp=[1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]
+# # 0.7.4 UserDefinedField
+# USDFLDProp=1
+# # 0.7.5 UserOutputVariables
+# OutVarProp=100
+# # 0.7.6 Conductivity
+# ConductProp=1.0
+# # 0.7.7 SpecificHeat
+# SHeatProp=1.0
+# # 0.7.8 Expansion
+# CTEProp=[0.000001, 298.15]
+# # 0.7.9 Depvar
+# SDVProp=240
 # 0.7.10 Plastic
 PlasticProp=[[1.0, 0.0],[1.2, 0.01],[1.0, 0.02]]
 
